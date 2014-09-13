@@ -1,8 +1,3 @@
-Array.prototype.valueShift = function(i) {
-	this.push(this[i]);
-	this[i] = "";
-};
-
 function translate(input) {
 var inputArray = input.split(" ");
 var outputArray = [];
